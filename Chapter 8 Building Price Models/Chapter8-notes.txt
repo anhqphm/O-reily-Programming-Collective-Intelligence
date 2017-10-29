@@ -1,0 +1,26 @@
+Chapter 8 Notes
+
+
+When to Use k-Nearest Neighbors
+
+Knn has a few disadvantages such as computationally intensive 
+as the distance to every point has to be calculated.
+In addition, in a dataset with many variables, it can be difficult 
+to determine the appropriate weights or whether some variables
+should be eliminated. Optimization can help with this but it can 
+take a very long time to find a good solution with big datasets.
+
+
+However, the fip side to the computational intensity of making a 
+prediction is that new observations can be added to the data without 
+any computational effort. It is also easy to interpret exactly what's
+happening because it's using the weighted value of other observation 
+to make its predictions.
+
+
+Once the best weights have been determined, you can use them to better
+understand the characteristics of the dataset. Finally, you can create
+probability functions for times when you suspect there are other 
+unmeasured variables in the dataset
+
+
